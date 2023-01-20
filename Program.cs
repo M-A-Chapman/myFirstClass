@@ -7,9 +7,8 @@ person1.setFirstName("notMike");
 Console.WriteLine(person1.getFirstName());
 Console.WriteLine(person1.getLastName());
 var person2 = new Person("Jane","Doe");
-
-Console.WriteLine($"{a} + {b} = {Calculator.add(2,3)}");
 person1.Introduce();
 person2.Introduce();
 Console.WriteLine(Person.goodbye());
 
+Console.WriteLine($"{a} + {b} = {Calculator.add(2,3)}");
